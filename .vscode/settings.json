@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 100,
+            "driver": "SQLite",
+            "name": "Zelda Armor DB",
+            "group": "Local",
+            "database": "${workspaceFolder:Zelda_ETL_Project}/data/armor.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
