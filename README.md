@@ -6,7 +6,7 @@ An end-to-end ETL pipeline analyzing armor value and progression efficiency in T
 ## 🗡️ Project Overview
 
 **Hypothesis:**
-What clothing items in The Legend of Zelda: Tears of the Kingdom are most valuable for progressing through the main quests? Which items should players prioritize acquiring to save time, energy, and in-game resources?
+What clothing/armor items in The Legend of Zelda: Tears of the Kingdom are most valuable for progressing through the main quests? Which items should players prioritize acquiring to save time, energy, and in-game resources?
 
 While The Legend of Zelda is designed for exploration — cooking, resting, discovering armor organically — this project approaches the game from a data perspective.
 
@@ -64,3 +64,4 @@ Most cost-efficient armor piece: Hylian Hood (highest defense per rupee)
 Best early-game armor investment: Hylian Set pieces
 
 Best combat protection: Soldier’s Set (highest defense but more expensive
+
