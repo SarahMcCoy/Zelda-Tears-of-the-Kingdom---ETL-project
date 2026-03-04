@@ -143,7 +143,7 @@ def main():
     existing = [c for c in keep_cols if c in df.columns]
     missing = [c for c in keep_cols if c not in df.columns]
     if missing:
-        print("⚠️ Missing columns in CSV export (skipping):")
+        print("Missing columns in CSV export (skipping):")
         for c in missing:
             print(f"  - {c}")
 
@@ -288,7 +288,7 @@ def main():
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     df.to_csv(OUTPUT_PATH, index=False)
 
-    print(f"✅ Cleaned dataset saved to {OUTPUT_PATH}")
+    print(f"Cleaned dataset saved to {OUTPUT_PATH}")
     print(f"Rows: {len(df)}")
     print("Null counts (selected):")
     cols_to_check = [c for c in ["buy_price_rupees", "sell_price_base", "defense_base", "defense_max"] if c in df.columns]
