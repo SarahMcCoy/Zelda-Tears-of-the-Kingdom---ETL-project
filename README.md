@@ -65,3 +65,8 @@ Best early-game armor investment: Hylian Set pieces
 
 Best combat protection: Soldier’s Set (highest defense but more expensive
 
+## Future Expansion Ideas
+- **Armor upgrade analysis:** Evaluate which armor pieces can be upgraded and how upgrades impact total defense and value. Incorporate upgrade material requirements to estimate the true cost of progression and identify which items players should prioritize collecting to maximize defense gains and long-term return on investment.
+- **Progression-aware recommendations:** Recommend armor to the player that maximizes defense ROI under common rupee constraints.
+- **Armor clustering (K-means):** Cluster armor into archetypes (e.g., budget-efficient basics, high-upgrade late-game gear, shop items) using standardized numeric features and categories.
+- **LLM explanation layer:** Add an optional AI “interpreter” that summarizes API results in plain English and explains *why* an item ranks highly using computed metrics (defense/rupee, upgrade potential).
