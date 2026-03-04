@@ -108,8 +108,8 @@ def create_db_from_csv(db_path: str, csv_path: str, table_name: str = "armor"):
             total += len(batch)
 
     conn.close()
-    print(f"✅ Created/updated {db_path}")
-    print(f"✅ Loaded {total} rows into table '{table_name}' from {csv_path}")
+    print(f"Created/updated {db_path}")
+    print(f"Loaded {total} rows into table '{table_name}' from {csv_path}")
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
